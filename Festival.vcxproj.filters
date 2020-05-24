@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Files">
+      <UniqueIdentifier>{c815bf84-eb9d-4ddc-bd6c-56a710e110d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{cb0ce194-7ae6-4758-ae9c-a543e48187d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repo">
+      <UniqueIdentifier>{dc40685f-6af4-4da5-955c-c4532f5705cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{1e5ab922-fe00-4fe4-9b14-6a2fafbfcef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{4e4d42cf-4cda-4094-86de-b385bc9f9bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{67979dc2-b32b-4f7b-a927-99baac3539cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Files\Program Files">
+      <UniqueIdentifier>{1880b618-1fad-485b-9bad-696e3eca90e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Files\Tests Files">
+      <UniqueIdentifier>{da71fc5a-b578-43ec-b8d2-22a8d7b883f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Entity">
+      <UniqueIdentifier>{0557d3dd-a11b-441a-927d-4e5a0cfd9fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\App">
+      <UniqueIdentifier>{97774483-de6c-46c6-be77-06bbc231ea96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Repo">
+      <UniqueIdentifier>{60b471ca-9e30-4be1-ab02-ef7d5b6f566a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Service">
+      <UniqueIdentifier>{5a42fece-5264-4c13-959f-901fa3af4e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\UI">
+      <UniqueIdentifier>{b1eff2cc-5810-45bf-93b3-ca4f0bb698a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Tests">
+      <UniqueIdentifier>{43cabbd0-a19b-43d5-9e14-2a899c713d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validate">
+      <UniqueIdentifier>{d9c8dc4a-ee3d-4075-9936-58cebe435843}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Artists.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Festival.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Films.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo.h">
+      <Filter>Header Files\Repo</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo_csv.h">
+      <Filter>Header Files\Repo</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo_txt.h">
+      <Filter>Header Files\Repo</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Repo.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Films.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Festival.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Artists.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Service_films.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service_Artists.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo_Users.h">
+      <Filter>Header Files\Repo</Filter>
+    </ClInclude>
+    <ClInclude Include="Service_Users.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Service.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Users.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Validate_Festivals.h">
+      <Filter>Header Files\Validate</Filter>
+    </ClInclude>
+    <ClInclude Include="Validate_Artists.h">
+      <Filter>Header Files\Validate</Filter>
+    </ClInclude>
+    <ClInclude Include="Validate_Films.h">
+      <Filter>Header Files\Validate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Resource Files\Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Artists.cpp">
+      <Filter>Resource Files\Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Festival.cpp">
+      <Filter>Resource Files\Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Films.cpp">
+      <Filter>Resource Files\Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo.cpp">
+      <Filter>Resource Files\Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo_csv.cpp">
+      <Filter>Resource Files\Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo_txt.cpp">
+      <Filter>Resource Files\Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Artists.cpp">
+      <Filter>Resource Files\Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Festival.cpp">
+      <Filter>Resource Files\Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Films.cpp">
+      <Filter>Resource Files\Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Repo.cpp">
+      <Filter>Resource Files\Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Resource Files\Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Service_films.cpp">
+      <Filter>Resource Files\Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service_artists.cpp">
+      <Filter>Resource Files\Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Users.cpp">
+      <Filter>Resource Files\Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo_Users.cpp">
+      <Filter>Resource Files\Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="Service_Users.cpp">
+      <Filter>Resource Files\Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Service.cpp">
+      <Filter>Resource Files\Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Users.cpp">
+      <Filter>Resource Files\Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Resource Files\Source Files\Service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Test_Festival_In.txt">
+      <Filter>Resource Files\Files\Tests Files</Filter>
+    </Text>
+    <Text Include="Test_Festival_Out.txt">
+      <Filter>Resource Files\Files\Tests Files</Filter>
+    </Text>
+    <Text Include="Artists.txt">
+      <Filter>Resource Files\Files\Program Files</Filter>
+    </Text>
+    <Text Include="Films.txt">
+      <Filter>Resource Files\Files\Program Files</Filter>
+    </Text>
+    <Text Include="Users.txt">
+      <Filter>Resource Files\Files\Program Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test_Festival_In.csv">
+      <Filter>Resource Files\Files\Tests Files</Filter>
+    </None>
+    <None Include="Test_Festival_Out.csv">
+      <Filter>Resource Files\Files\Tests Files</Filter>
+    </None>
+    <None Include="Artists.csv">
+      <Filter>Resource Files\Files\Program Files</Filter>
+    </None>
+    <None Include="Films.csv">
+      <Filter>Resource Files\Files\Program Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
